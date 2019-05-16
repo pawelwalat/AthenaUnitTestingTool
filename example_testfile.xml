@@ -1,0 +1,29 @@
+<tests db="testdb" s3_output="s3://pawelwalat-test1/tmp/">
+<!-- Simple unit test definition -->
+	<test name="This is test scenario number 1">
+		<sql>select 1</sql>		
+		<expected>1</expected>
+		<operator>=</operator>
+		<result></result>
+		<execution_status></execution_status>
+		<execution_start></execution_start>
+		<execution_completed></execution_completed>
+		<test_status></test_status>
+		<queryexecutionid></queryexecutionid>
+	</test>		
+<!-- Second unit test definition below-->
+	<test name="This is test scenario number 2">
+		<sql>select 1</sql>		
+		<expected>2</expected>
+		<operator><![CDATA[>=]]></operator>
+		<result></result>
+		<execution_status></execution_status>
+		<execution_start></execution_start>
+		<execution_completed></execution_completed>
+		<test_status></test_status>
+		<queryexecutionid></queryexecutionid>
+	</test>		
+</tests>
+
+
+

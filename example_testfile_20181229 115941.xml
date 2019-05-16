@@ -1,0 +1,26 @@
+<tests Execution date="2018-12-28 11:59:41" db="testdb" s3_output="s3://pawelwalat-test1/tmp/">
+
+	<test name="This is test scenario number 1">
+		<sql>select 1</sql>		
+		<expected>1</expected>
+		<operator>=</operator>
+		<result>1</result>
+		<execution_status>SUCCEEDED</execution_status>
+		<execution_start>2018-12-29 11:59:41</execution_start>
+		<execution_completed>2018-12-29 11:59:42</execution_completed>
+		<test_status>PASSED</test_status>
+		<queryexecutionid>ea6c72b2-898a-4258-8701-ea512e39e97a</queryexecutionid>
+	</test>		
+
+	<test name="This is test scenario number 1">
+		<sql>select 1</sql>		
+		<expected>2</expected>
+		<operator>&gt;=</operator>
+		<result>1</result>
+		<execution_status>SUCCEEDED</execution_status>
+		<execution_start>2018-12-29 11:59:41</execution_start>
+		<execution_completed>2018-12-29 11:59:42</execution_completed>
+		<test_status>FAILED</test_status>
+		<queryexecutionid>176786ff-1007-42b4-aa6f-947730e07176</queryexecutionid>
+	</test>		
+</tests>
